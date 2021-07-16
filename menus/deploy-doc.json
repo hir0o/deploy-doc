@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle deploy-doc",
+        "command": "deploy-doc:deploy"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "deploy-doc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "deploy-doc:deploy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
